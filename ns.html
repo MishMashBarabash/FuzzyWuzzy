@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<style>
+body {
+    background-color: #532d85;
+    background-image: url("https://media.discordapp.net/attachments/430165683280543757/1071124085259636816/2ab1c37cfdff720c6de2ddb07328f145.png");
+    background-repeat: repeat;
+    background-size: 64px;
+}
+p {
+    color: #ffffff;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 25px;
+    padding: 3px;
+    margin: 3px;
+}
+p.pasekn {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+h1 {
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    padding: 0px;
+    margin: 2px;
+}
+
+.logos {
+    width: 100px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    padding: 3px;
+}
+.logos:hover {
+  transform: scaleX(-1);
+}
+
+button {
+  background-color: #713eb4; 
+  color: black; 
+  border: 2px solid #713eb4;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+button:hover {
+    background-color: #a057ff; /* Green */
+    color: #ffd900;
+}
+
+.siatkagora {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  background-color: #713eb4;
+  padding: 15px;
+  border-radius: 5px;
+}
+.paseknawigacji {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #713eb4;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.siatka1 {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  background-color: #713eb4;
+  padding: 10px;
+}
+.siatka1-zawartosc {
+  background-color: #532d85;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 380px) {
+      body {
+        background-size: 64px;
+      }
+    }
+
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Css Grid</title>
+</head>
+
+<body>
+
+
+
+    <div class="siatkagora" style="border: 4px solid #45266e; border-radius: 1px;">
+        <div class="siatkagora">
+            <img class="logos" src="https://media.discordapp.net/attachments/430165683280543757/1071136101265317909/chinskikotek.png" alt="Paris">
+        </div>
+        <div>
+            <p style="margin-top: 25px;font-size: 60px; text-align: center;"><b>F-Site</b></p>
+            <p style="font-size: 45px; text-align: center;">My world control center</p>
+        </div>
+
+    </div>
+
+    <p></p>
+    <div style="border: 5px solid #532d85;" class="paseknawigacji">
+      <div>
+        <a style="text-decoration: none; background-color: none;" href="http://192.168.0.15:8000/panel"><p style="color: #ffd727;"class="pasekn"><u><b>MAIN SITE</b></u></p></a>
+      </div>
+      <div>
+        <a style="text-decoration: none; background-color: none;" href="http://192.168.0.15:8000/panel"><p class="pasekn">My arts</p></a>
+      </div>
+      <div>
+        <a style="text-decoration: none; background-color: none;" href="http://192.168.0.15:8000/panel"><p class="pasekn">Blender 3D models</p></a>
+      </div>
+      <div>
+        <a style="text-decoration: none; background-color: none;" href="http://192.168.0.15:8000/panel"><p class="pasekn">Gry flash</p></a>
+      </div>
+    </div>
+    <p></p>
+
+
+    <div class="siatka1">
+
+      <div class="siatka1-zawartosc">
+        <h1 style="color: #e21818; border: 2px solid #45266e; border-radius: 25px; background-color: #45266e;">Navigation:</h1>
+        <a style="text-decoration: none; background-color: none;" href="http://192.168.0.15:8000/grid"><p style="background-color: #60266e; color: #ffd727; font-size: 24px; margin: 5px;">About me</p></a>
+        <a style="text-decoration: none; background-color: none;" href="http://192.168.0.15:8000/"><p style="color: #ffffff; font-size: 16px;">BLANK</p></a>
+        <a style="text-decoration: none; background-color: none;" href="http://192.168.0.15:8000/panel"><p style="color: #ffffff; font-size: 16px;">BLANK</p></a>
+        <p></p>
+        <h1 style="color: #18e2e2; border: 2px solid #45266e; border-radius: 25px; background-color: #45266e;">My Projects:</h1>
+        <a style="text-decoration: none; background-color: none;" href="http://192.168.0.15:8000/"><p style="color: #ffffff; font-size: 16px; padding: 5px;">The Purgatorers</p></a>
+        <a style="text-decoration: none; background-color: none;" href="http://192.168.0.15:8000/"><p style="color: #ffffff; font-size: 16px; padding: 5px;">GMod Poland Map</p></a>
+        <a style="text-decoration: none; background-color: none;" href="http://192.168.0.15:8000/"><p style="color: #ffffff; font-size: 16px; padding: 5px;">Downldy</p></a>
+        <a style="text-decoration: none; background-color: none;" href="http://192.168.0.15:8000/"><p style="color: #ffffff; font-size: 16px; padding: 5px;">ThugPro scripts</p></a>
+
+      <div>
+          <p style="margin-top: 50px;font-size: 25px; color: #ffffff; border: 2px solid #45266e; border-radius: 25px; background-color: #45266e;">Inspired by</p>
+          <a href="www.google.com"><img style="margin-top: 10px; width: 175px;" class="zdj" src="https://media.discordapp.net/attachments/946316144892084276/1049263930578583572/fundacja-papy-smoqa.png" alt="Paris"></a>
+      </div>
+    
+    </div>
+
+
+      <div class="siatka1-zawartosc">
+        <h1 style="color: #e21818; border: 2px solid #45266e; border-radius: 25px; background-color: #45266e;">About me:</h1>
+        <div>
+
+          <div style="display: grid; grid-template-columns: 1fr 8fr; border: 2px solid #45266e;">
+            
+            <div style="border: 2px solid #45266e; background-color: #321b50;">
+              <img style="width: 400px;" class="zdj" src="https://media.discordapp.net/attachments/430165683280543757/1097549960708358245/shrk.png?width=491&height=683" alt="Paris">
+            </div>
+
+            <div style="background-color: #45266e; border: 2px solid #45266e; text-align: justify; text-justify: inter-word;">
+              <p></p>
+              <p style="font-size: 26px; padding: 5px; line-height: 30px; text-align: center;"><b>My name is FuzzyWuzzy.</b></p>
+              <p style="font-size: 20px; padding: 5px; line-height: 30px;">Im furry artist. I love any kind of artistic activity. I have variety of hobbies: drawing, programming, making videos, 3D modeling and even music composing. I love anything that allows me to express myself.</p>
+              <p style="font-size: 20px; padding: 5px; line-height: 30px;">In my free time I'm developing my own game: Purgatorers. Where I join together all my interests.</p>
+              <p style="font-size: 20px; padding: 5px; line-height: 30px;">Software that I'm familiar with:</p>
+              <ul>
+                <li><p style="font-size: 16px; padding: 5px; line-height: 10px;">Sony Vegas</p></li>
+                <li><p style="font-size: 16px; padding: 5px; line-height: 10px;">Adobe Premiere</p></li>
+                <li><p style="font-size: 16px; padding: 5px; line-height: 10px;">Ibis paint</p></li>
+                <li><p style="font-size: 16px; padding: 5px; line-height: 10px;">Adobe Photoshop</p></li>
+                <li><p style="font-size: 16px; padding: 5px; line-height: 10px;">Blender</p></li>
+                <li><p style="font-size: 16px; padding: 5px; line-height: 10px;">Godot</p></li>
+                <li><p style="font-size: 16px; padding: 5px; line-height: 10px;">Source Engine Hammer Editor</p></li>
+                <li><p style="font-size: 16px; padding: 5px; line-height: 10px;">Source Filmmaker</p></li>
+                <li><p style="font-size: 16px; padding: 5px; line-height: 10px;">FL Studio</p></li>
+              </ul>
+            </div>
+            
+
+          </div>
+          <h1 style="color: #e21818; border: 2px solid #45266e; border-radius: 25px; background-color: #45266e; margin-inline: none;">Some examples of my work:</h1>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; border: 2px solid #45266e; padding: 5px;">
+          <div>
+            <img style="width: 350px;" class="smoq" src="https://media.discordapp.net/attachments/430165683280543757/1097608962196652072/ren2.png" alt="Paris">
+            <p style="margin-inline: 25px; background-color: #313131;font-size: 16px; padding: 1px; line-height: 28px;">SmoQwhite's fursona 3D model</p>
+          </div>
+          <div>
+            <img style="width: 350px;" class="zdj" src="https://media.discordapp.net/attachments/430165683280543757/1097612044158652526/sca.png" alt="Paris">
+            <p style="margin-inline: 25px; background-color: #313131;font-size: 16px; padding: 1px; line-height: 30px;">Soca the demoness</p>
+          </div>
+
+          <div>
+            <img style="width: 350px;" class="zdj" src="https://media.discordapp.net/attachments/430165683280543757/1097608758240231475/ren1.png" alt="Paris">
+            <p style="margin-inline: 25px; background-color: #313131;font-size: 16px; padding: 1px; line-height: 30px;">Valera the crocodile 3D model</p>
+          </div>
+        </div>
+
+
+
+        <div style="margin-top: 30px; display: grid; grid-template-columns: 1fr 2fr; border: 2px solid #45266e; padding: 5px;">
+          <div>
+            <iframe style="margin-top: 10px;"width="560" height="315" src="https://www.youtube.com/embed/wfsj_96OutY"></iframe>
+          </div>
+          <div>
+            <p style="margin-inline: 20px; border: 2px solid #45266e; border-radius: 25px; background-color: #45266e; font-size: 26px; padding: 5px; line-height: 30px; text-align: center;"><b>The Purgatorers</b></p>
+            <p style="text-align: justify; text-justify: inter-word; font-size: 20px; padding: 5px; line-height: 30px;">Purgatorers is my co-op FPS game. It is intended to be mix of Deep Rock Galactic and Left 4 Dead type of game with shooting feeling from Counter Strike 1.6</p>
+            <p style="text-align: justify; text-justify: inter-word; font-size: 20px; padding: 5px; line-height: 30px;">Weapons always kill after hit weakpoint but their recoil is huge, similiar to counter strike weapons recoil.</p>
+            <p style="text-align: justify; text-justify: inter-word; font-size: 20px; padding: 5px; line-height: 30px;">On the left there is prototype.</p>
+          </div>
+        </div>
+
+
+
+
+        <div style="margin-top: 30px; display: grid; grid-template-columns: 1fr 1fr; border: 2px solid #45266e; padding: 5px;">
+        <div>
+          <img style="width: 350px;" class="zdj" src="https://steamuserimages-a.akamaihd.net/ugc/1827903467616282849/74C1F51031FAE73CB6C59EE3E8A9C88C094927D1/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" alt="Paris">
+          <p style="margin-inline: 125px; background-color: #313131;font-size: 16px; padding: 1px; line-height: 30px;">Fuzzy as BF3 character</p>
+        </div>
+        <div>
+          <img style="width: 500px;" class="zdj" src="https://media.discordapp.net/attachments/430165683280543757/1091808400637165628/image.png?width=946&height=683" alt="Paris">
+          <p style="margin-inline: 50px; background-color: #313131;font-size: 16px; padding: 1px; line-height: 30px;">Valera in dress</p>
+        </div>
+        </div>
+        
+
+        
+        
+      </div>
+
+
+
+
+
+
+
+
+
+
+      
+      <div class="siatka1-zawartosc">
+        <h1 style="color: #e21818; border: 2px solid #45266e; border-radius: 25px; background-color: #45266e;">Contact:</h1>
+        <div>
+            <p style="font-size: 25px;">Steam</p>
+            <p style="font-size: 15px;">Fuzz</p>
+            <a href="https://steamcommunity.com/id/Rufialek/"><img style="width: 125px;" class="zdj" src="https://avatars.akamai.steamstatic.com/bc50e319dec998975e0923eb63f73e7df4eb77df_full.jpg" alt="Paris"></a>
+            <p style="background-color: #252525;font-size: 15px;">My Steam profile</p>
+        </div>
+        <div>
+            <p style="margin-top: 25px;font-size: 25px;">Furraffinity</p>
+            <p style="font-size: 15px;">FuzzyWuzzy2137</p>
+            <a href="https://www.furaffinity.net/user/fuzzywuzzy2137/"><img style="width: 125px;" class="zdj" src="https://a.furaffinity.net/1589225752/fuzzywuzzy2137.gif" alt="Paris"></a>
+            <p style="background-color: #252525;font-size: 15px;">My Furaffinity arts archive</p>
+        </div>
+        <div>
+            <p id="szopy" style="margin-top: 25px;font-size: 25px;">Twitter</p>
+            <p style="font-size: 15px;">@FuzzyWuzzy2137</p>
+            <a href="https://twitter.com/FuzzyWuzzy2137"><img style="width: 125px;" class="zdj" src="https://pbs.twimg.com/profile_images/1559106613969141760/sSeLUOXo_400x400.jpg" alt="Paris"></a>
+            <p style="background-color: #252525;font-size: 15px;">My unused Twitter</p>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+
+<div style="border: 1px solid #ffffff; border-radius: 1px; margin-top: 10px; background-color: #321b50;">
+  <p style="text-align: justify; text-justify: inter-word; font-size: 20px;">Created by FuzzyWuzzy</p>
+</div>
+
+<script>
+</script>
+</body>
+</html>
